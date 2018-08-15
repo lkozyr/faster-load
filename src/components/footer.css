@@ -1,0 +1,12 @@
+footer{
+    background: black;
+    color: white;
+    height: 6vh;
+    line-height: 6vh;
+    text-align: center;
+  }
+  footer a{
+    color: #cc0096;
+    text-decoration: none;
+    font-weight: bold;
+  }

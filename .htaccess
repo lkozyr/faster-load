@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule !^php($|/) ./index.html [L,R=301]

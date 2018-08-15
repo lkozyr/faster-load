@@ -1,0 +1,48 @@
+.author{
+    text-align: left;
+}  
+.author .name-short {
+    color: #cc0096;
+    cursor: pointer;
+    text-shadow: 0 0 1px;
+}
+.author .details{
+    display: none;
+    position: absolute;
+    z-index: 550;
+}
+.author .name:hover .details{
+    background: #d665b8;
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px #683e5d;
+    display: grid;
+    align-items: center;
+    grid-gap: 0;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, auto);
+    padding: 1em;
+    max-width: 620px;
+    width: 98%;
+}
+.details img{
+    border: solid 1px #cc0096;
+    border-radius: 50%;
+    grid-column: span 1;
+    grid-row: span 2;
+    justify-self: center;
+    width: 44px;
+}
+.details .name{
+    color: #515151;
+    font-weight: bold;
+    grid-column: span 7;
+    padding-left: 1em;
+}
+.details .bio{
+    color: #414141;
+    font-style: italic;
+    grid-column: 1 / -1;
+    grid-column: span 7;
+    margin: 0.5em 0 0 0;
+    padding-left: 1em;
+}

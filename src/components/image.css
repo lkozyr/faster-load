@@ -1,0 +1,16 @@
+
+.image{
+    margin: 5vh auto;
+    max-width: 540px;
+    width: 98%;
+}
+.img{
+    border: solid 1px gray;
+    box-shadow: 0 0 5px rgb(155, 153, 153);
+    filter: blur(10px);
+    transition: filter 1.7s ease-out;
+    width: 100%;
+}
+.unblur{
+    filter: none;
+}

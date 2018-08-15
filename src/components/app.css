@@ -1,0 +1,41 @@
+@font-face{
+  font-family: ABeeZee;
+  src: url('../fonts/ABeeZee-Regular.ttf');
+}
+body *{
+  box-sizing: border-box;
+  color: #333333;
+}
+.app {
+  background: #f1f1f1;
+  text-align: center;
+}
+
+.app-logo {
+  height: 80px;
+}
+
+.app-header {
+  background-color: #222;
+  height: 13vh;
+}
+.app-header h1 span{
+  color: #cc0096;
+  font-family: ABeeZee, sans-serif;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.app-title {
+  align-items:  center;
+  display:  flex;
+  flex-direction: row;
+  flex-wrap:  nowrap;
+  justify-content:  center;
+  margin:  0;
+  padding:  0;
+}
+
+.app-intro {
+  font-size: large;
+}
