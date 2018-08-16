@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import loader from '../images/loading.svg';
 import Author from './Author';
 import Image from './Image';
+import Text from './Text';
 import { isNear } from '../helpers';
 import './news.css';
 
@@ -117,7 +118,8 @@ class News extends Component {
 										<h3>{item.title}</h3>
 										<Image images={item.images}
 											   alt={item.title}/>
-										<p>{item.text}</p>
+										<Text text={item.text} />
+
 										<Author name={item.authorName} 
 												avatar={item.authorAvatar}
 												bio={item.authorBio}/>
